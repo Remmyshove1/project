@@ -79,8 +79,8 @@ public class Deduction {
 
         //store Manager
         else if (wage == 20.45) {
-            stateTax = 0.0575;
-            federalTax = 0.20;
+            stateTax = 0.0475;
+            federalTax = 0.15;
 
             double payWithoutD2 = wage * hours;
             double stateTaxDed2 = stateTax * payWithoutD2;
@@ -96,8 +96,8 @@ public class Deduction {
 
         //branch manager
         else if (wage == 40.87) {
-            stateTax = 0.0475;
-            federalTax = 0.15;
+            stateTax = 0.0575;
+            federalTax = 0.20;
 
 
             double payWithoutD3 = wage * hours;
@@ -117,7 +117,7 @@ public class Deduction {
 
         //Vp
         else if (wage == 500) {
-            stateTax = 0.0475;
+            stateTax = 0.0575;
             federalTax = 0.15;
 
             double payWithoutD4 = wage * hours;
