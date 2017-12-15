@@ -118,7 +118,7 @@ public class Deduction {
         //Vp
         else if (wage == 500) {
             stateTax = 0.0575;
-            federalTax = 0.15;
+            federalTax = 0.20;
 
             double payWithoutD4 = wage * hours;
 
